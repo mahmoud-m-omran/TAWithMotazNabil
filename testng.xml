@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <parameter name="browser" value="ie"></parameter>
+    <test name="Test">
+        <classes>
+            <class name="tests.RegistrationTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
